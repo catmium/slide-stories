@@ -26,7 +26,7 @@ shareButton.addEventListener("click", async () => {
         await navigator.share({
           files,
           title: 'Images',
-          text: 'Beautiful images'
+          text: 'This is a cat.'
         })
         output.textContent = 'Shared!'
       } catch (error) {
